@@ -93,15 +93,15 @@ class MapMarker extends Field
         return $this->withMeta([__FUNCTION__ => $field]);
     }
 
-    // public function markerIcon(string $url)
-    // {
-    //     return $this->withMeta([__FUNCTION__ => $url]);
-    // }
+    public function markerIcon(string $url)
+    {
+         return $this->withMeta([__FUNCTION__ => $url]);
+    }
 
-    // public function markerIconShadow(string $url)
-    // {
-    //     return $this->withMeta([__FUNCTION__ => $url]);
-    // }
+    public function markerIconShadow(string $url)
+    {
+         return $this->withMeta([__FUNCTION__ => $url]);
+    }
 
     public function searchProvider(string $provider)
     {
